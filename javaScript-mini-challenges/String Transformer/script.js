@@ -65,8 +65,3 @@ Input.addEventListener("input",(e) => {
     kebabcase.innerHTML = toKebabCase(value);
     trimcase.innerHTML = value.trim();
 });
-
-Input.addEventListener("change",(e) => {
-    var value = e.target.value;
-    console.log("onchnage Event Trigger",value);
-})

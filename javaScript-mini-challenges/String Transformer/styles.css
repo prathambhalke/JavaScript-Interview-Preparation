@@ -29,26 +29,31 @@ input[type="text"] {
 
 .output-item {
     background-color: #fff;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #ddd;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    word-break: break-word;
+    margin-top: 10px;
 }
 
 .output-item span {
-    font-weight: bold;
-    margin-right: 10px;
+    margin-right: 30px;
     background-color: rgb(236, 236, 236);
     border-radius: 8px;
-    padding: 5px;
+    padding: 6px 12px;
+    background-color: black;
+    color: white;
+    font-size: .75rem;
+    min-width: 12%;
+    text-align: center;
 }
 
 .output-item p {
     margin: 0;
     color: #555;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .main-container{
