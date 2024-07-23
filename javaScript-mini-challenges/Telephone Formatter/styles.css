@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin: 2rem;
+}
+
+h1 {
+    color: #5b2c6f;
+    margin-bottom: 1rem;
+}
+
+input[type="tel"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+    border: 2px solid #5b2c6f;
+    border-radius: 5px;
+    font-size: 1.30rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="tel"]:focus {
+    border-color: #8e44ad;
+}
+
+::placeholder {
+    color: #ccc;
+}
