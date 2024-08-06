@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#project_title {
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    color: #4b0082; /* Indigo text color */
+    font-family: 'Arial', sans-serif; /* Optional: Font family */
+    font-size: 1.5rem; /* Optional: Font size */
+    box-shadow: 0 4px 8px rgba(106, 13, 173, 0.2); /* Optional: Purple shadow */
+}
