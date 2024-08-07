@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   color: #4b0082;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
   height: 100vh;
@@ -28,4 +28,8 @@ td {
   text-align: center;
   width: 40px; /* Set fixed width */
   height: 40px; /* Set fixed height */
+}
+
+.range-controllers{
+  margin-top: 10%;
 }
